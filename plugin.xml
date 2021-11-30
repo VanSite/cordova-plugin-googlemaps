@@ -247,6 +247,7 @@
       <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
       <!-- GPS -->
       <uses-feature android:name="android.hardware.location"/>
+      <!--      Comment android.hardware.location.gps as build fails when used along with cordova-plugin-geolocation -->
       <!-- <uses-feature android:name="android.hardware.location.gps"/> -->
     </config-file>
 
